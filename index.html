@@ -26,9 +26,7 @@
 					Lightweight &amp; framework independent JavaScript image / video
 					viewer
 				</p>
-				<!-- <a class="btn github" href="https://github.com/henrygd/bigpicture"
-					>View on Github</a
-				> -->
+				
 			</div>
 
 			<div id="image_container" class="container">
@@ -201,7 +199,7 @@
 
 		<script>
 			;(function() {
-				// four image gallery
+
 				var imageLinks = document.querySelectorAll('#image_container a')
 				for (var i = 0; i < imageLinks.length; i++) {
 					imageLinks[i].addEventListener('click', function(e) {
@@ -213,7 +211,7 @@
 					})
 				}
 
-				// unsplash gallery
+
 				var unsplashImages = [
 					'meiying',
 					'clemono2',
@@ -249,7 +247,6 @@
 					})
 				}
 
-				// other stuff
 				function setClickHandler(id, fn) {
 					document.getElementById(id).onclick = fn
 				}
